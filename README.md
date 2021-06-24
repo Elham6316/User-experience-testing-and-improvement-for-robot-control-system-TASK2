@@ -26,14 +26,13 @@ connection to database when click right button > print "your choose direction = 
 * pink.jpg
 * purple.jpg
 ### PIC :
-
+![](https://github.com/Elham6316/User-experience-testing-and-improvement-for-robot-control-system/blob/main/interfaces/robotdir.png)
 ### Motor angle interface :
 
 **SUPPORT MOBILE WEB VIEW** 
 
-![]()
+
 
 ### Database PIC 
-
-
+![](https://github.com/Elham6316/User-experience-testing-and-improvement-for-robot-control-system/blob/main/interfaces/Database.png)
 

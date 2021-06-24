@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title> Robot Arm 🤖</title>
+      <link rel="stylesheet" href="style3.css">
+      <meta name ="viewport" content="width=device-width, initial-scale=1"><!-- RESPONSIVE WEB PAGE -->
+   </head>
+   <body>
+      <form action="ta2.php" method="GET" >
+      <div class="back">
+      <div class="wrapper">
+         <div class="text">
+            Robot Arm
+         </div>
+         <p>
+            Control Panel
+         </p>
+         <div class="btns">
+            <a href="index1.html">Motor Angle</a>
+            <a href="index2.html">Robot Direction</a>
+         </div>
+      </div></div>
+      <script>
+         const buttons = document.querySelectorAll("a");
+         buttons.forEach((button) => {
+           button.onclick = function(e){
+             let x = e.clientX - e.target.offsetLeft;
+             let y = e.clientY - e.target.offsetTop;
+             let ripple = document.createElement("span");
+             ripple.style.left = `${x}px`;
+             ripple.style.top = `${y}px`;
+             this.appendChild(ripple);
+             setTimeout(function(){
+               ripple.remove();
+             }, 600); // 1second = 1000ms
+           }
+         });
+         
+      </script>
+      </form>
+   </body>
+</html>

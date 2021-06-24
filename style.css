@@ -1,0 +1,232 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700);
+:root {
+  background: -webkit-linear-gradient(top, #222838 0%, #131621 100%);
+  height: 100vh;
+}
+#tit{
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#demo1,#demo2, #demo3,#demo4,#demo5{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  width: 334px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+body
+{
+  background:#333;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1, h2 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #24E2B8;
+}
+
+.one, .two, .three, .four, .five {
+  border: none;
+  border-radius: 4px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.48);
+  overflow: hidden;
+  padding: 20px 50px 20px 70px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  position: relative;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  -webkit-transition: background-position .7s,box-shadow .4s;
+  transition: background-position .7s,box-shadow .4s;
+  background-size: 110%;
+  font-family: 'Oswald', sans-serif;
+}
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover {
+  background-position: 0% 30%;
+}
+.one:hover:after, .two:hover:after, .three:hover:after, .four:hover:after, .five:hover:after {
+  right: -40px;
+  -webkit-transition: right .4s,-webkit-transform 30s .2s linear;
+  transition: right .4s,-webkit-transform 30s .2s linear;
+  transition: right .4s,transform 30s .2s linear;
+  transition: right .4s,transform 30s .2s linear,-webkit-transform 30s .2s linear;
+}
+.one:before, .two:before, .three:before, .four:before, .five:before, .one:after, .two:after, .three:after, .four:after, .five:after {
+  font-family: FontAwesome;
+  display: block;
+  position: absolute;
+}
+.one:before, .two:before, .three:before, .four:before, .five:before {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  font-size: 30px;
+  left: 25px;
+  top: 19px;
+}
+.one:after, .two:after, .three:after, .four:after, .five:after {
+  -webkit-transition: right .4s, -webkit-transform .2s;
+  transition: right .4s, -webkit-transform .2s;
+  transition: right .4s, transform .2s;
+  transition: right .4s, transform .2s, -webkit-transform .2s;
+  font-size: 100px;
+  opacity: .3;
+  right: -120px;
+  top: -17px;
+}
+
+.one {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 10px 0px #782CDA;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#782CDA), to(rgba(126, 94, 162, 0.51))), url("img/purple.jpg");
+  background-image: linear-gradient(to bottom, #782CDA, rgba(126, 94, 162, 0.51)), url("img/purple.jpg");
+  
+}
+.one:hover {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 30px 0px #782CDA;
+}
+.one:hover:after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.one:hover:before {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.one:after, .one:before {
+  content: "↠";
+}
+.one b {
+  color: #DDA6FF;
+  font-weight: 700;
+}
+
+.two {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 10px 0px #E48A3C;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#E48A3C), to(rgba(222, 135, 61, 0.24))), url("img/orange.png");
+  background-image: linear-gradient(to bottom, #E48A3C, rgba(222, 135, 61, 0.24)), url("img/orange.png");
+}
+.two:hover {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 30px 0px #E48A3C;
+}
+.two:hover:after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.two:hover:before {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.two:after, .two:before {
+  content: "↞";
+}
+.two b {
+  color: #FFD9B4;
+  font-weight: 700;
+}
+
+.three {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 10px 0px #36C176;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#36C176), to(rgba(86, 202, 139, 0.18))), url("img/green.jpg");
+  background-image: linear-gradient(to bottom, #36C176, rgba(86, 202, 139, 0.18)), url("img/green.jpg");
+}
+.three:hover {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 30px 0px #36C176;
+}
+.three:hover:after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.three:hover:before {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.three:after, .three:before {
+  content: "↟";
+}
+.three b {
+  color: #63FFAC;
+  font-weight: 700;
+}
+
+.four {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 10px 0px #33E7EA;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#33E7EA), to(rgba(161, 245, 245, 0.24))), url("img/blue.jpg");
+  background-image: linear-gradient(to bottom, #33E7EA, rgba(161, 245, 245, 0.24)), url("img/blue.jpg");
+}
+.four:hover {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 30px 0px #33E7EA;
+}
+.four:hover:after {
+  -webkit-transform: rotate(3000deg);
+          transform: rotate(3000deg);
+}
+.four:hover:before {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.four:after, .four:before {
+  content: "↡";
+}
+.four b {
+  color: #1CF4FF;
+  font-weight: 700;
+}
+
+.five {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 10px 0px #DE3964;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#DE3964), to(rgba(154, 40, 87, 0.24))), url("img/pink.jpg");
+  background-image: linear-gradient(to bottom, #DE3964, rgba(154, 40, 87, 0.24)), url("img/pink.jpg");
+}
+.five:hover {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 30px 0px #DE3964;
+}
+.five:hover:after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.five:hover:before {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.five:after, .five:before {
+  content: "!";
+}
+.five b {
+  color: #F764FF;
+  font-weight: 700;
+}
+@viewport{     /*RESPONSIVE WEB PAGE */
+    zoom:1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom :1.0;
+}

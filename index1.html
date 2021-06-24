@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Motor Angle </title>
+	<link rel="stylesheet" type="text/css" href="sstyle.css">
+	<meta name ="viewport" content="width=device-width, initial-scale=1"><!-- RESPONSIVE WEB PAGE -->
+</head>
+<body>
+
+  <form action="final.php" method="post" >
+
+  <div id="header">
+   <!--<h1>ROBOT ARM </h1> -->
+
+    </div>
+	<div class="container">
+
+	 	<div class="row">
+			<div class="offset-md-3 col-lg-6">
+			    <div class="row">
+			        <div class="col-lg-12">
+
+						<div id="title1">
+						<h2 style="color:rgb(255, 255, 255);"> Choose the Angle for each Motor : </h2>
+						<label>    </label>
+					     </div>
+						 
+                <div id="engine1">
+                    <h3 style="color:rgb(255, 255, 255);"> Motor 1</h3>
+			          	<div class="range">
+			            	<input type="range" name="v1" min="0" max="180" value="90" id = "myRange1" class = "slider" onchange="range.value=value">
+			            	<output id="range">90</output>
+			          	</div>
+			        </div>
+              <label>        </label>
+			        <div class="col-lg-12">
+                <div id="engine2">
+                  <h3 style="color:rgb(255, 255, 255);"> Motor 2</h3>
+			          	<div class="range range-primary">
+			            	<input type="range" name="v2" min="0" max="180" value="90" id = "myRange2" class = "slider" onchange="rangePrimary.value=value">
+			            	<output id="rangePrimary">90</output>
+			          	</div>
+			        </div>
+              <label>        </label>
+			        <div class="col-lg-12">
+                <div id="engine3">
+                  <h3 style="color:rgb(255, 255, 255);"> Motor 3</h3>
+			          	<div class="range range-success">
+			            	<input type="range" min="0" max="180" value="90" id = "myRange3" class = "slider" name = "v3" onchange="rangeSuccess.value=value">
+			            	<output id="value3">90</output>
+			          	</div>
+			        </div>
+              <label>        </label>
+			        <div class="col-lg-12">
+                <div id="engine4">
+                  <h3 style="color:rgb(255, 255, 255);"> Motor 4</h3>
+			          	<div class="range range-info">
+			            	<input type="range" min="0" max="180" value="90"id = "myRange5" class = "slider" name = "v4" onchange="rangeInfo.value=value">
+			            	<output id="value4">90</output>
+			          	</div>
+			        </div>
+              <label>        </label>
+				    <div class="col-lg-12">
+              <div id="engine5">
+                <h3 style="color:rgb(255, 255, 255);"> Motor 5</h3>
+			          	<div class="range range-warning">
+			            	<input type="range" min="0" max="180" value="90" id = "myRange5" class = "slider" name = "v5" onchange="rangeWarning.value=value">
+			            	<output id="value5">90</output>
+			         	</div>
+			        </div>
+              <label>        </label>
+			        <div class="col-lg-12">
+                <div id="engine6">
+                  <h3 style="color:rgb(255, 255, 255);"> Motor 6</h3>
+			          	<div class="range range-danger">
+			            	<input type="range" min="0" max="180" value="90" id = "myRange6" class = "slider" name = "v6" onchange="rangeDanger.value=value ">
+			            	<output id="value6">90</output>
+			        	</div>
+			        </div>
+			    </div>
+    		</div>
+    	</div>
+    </div>
+    </div>
+    </br>
+
+    <div class="but1">
+      <button type="submit" class ="butt1" name = "submit" > Save </button> 
+	  &nbsp;
+
+      <button type="reset" class="butt2" name="play "> Play </button>
+      </br>
+    </div>
+</br>
+</form>
+</body>
+</html>

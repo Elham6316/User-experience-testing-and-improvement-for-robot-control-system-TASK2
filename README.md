@@ -2,30 +2,34 @@
 first interface :
 to choose between (motor angle , Robot direction )
 #### Files :
-* 1.index.html
-* 2.ta2.php
-* 3.style3.css
-* 4.back2.png 
+ * index.html
+ * ta2.php
+ * style3.css
+ * back2.png 
+ 
 ### PIC :
-![] 
+![](https://github.com/Elham6316/User-experience-testing-and-improvement-for-robot-control-system/blob/main/interfaces/maininterface.png)
 
 ### Robot direction interface :
 We have 5 buttons for direction (right,left,forward,backward,stop)
 connection to database when click right button > print "your choose direction = TO RIGHT "  
 
+**SUPPORT MOBILE WEB VIEW ** 
+
 #### Files : 
-* 1.index2.html
-* 2.style.css
-* 3.select.php
-* 4.blue.jpg
-* 5.green.jpg
-* 6.orange.png
-* 7.pink.jpg
-* 8.purple.jpg
+* index2.html
+* style.css
+* select.php
+* blue.jpg
+* green.jpg
+* orange.png
+* pink.jpg
+* purple.jpg
+### PIC :
 
 ### Motor angle interface :
 
-SUPPORT MOBILE WEB VIEW 
+**SUPPORT MOBILE WEB VIEW** 
 
 ![]()
 
